@@ -1,0 +1,36 @@
+1) Function Definition: 
+The name of the new function and a group of statements make up a function definition.
+Any legal identifier can be used as the function's name.
+
+2) Function Call: 
+An invocation of a function's name results in the execution of
+the statements contained within the function.
+
+3) Local Variable:
+ A local variable is a variable declared in a function, which is then accessible only within
+that function.
+
+4) Parameter: 
+A function input identified in a function definition is referred to as a parameter.
+
+5) Argument: 
+An argument is a value provided to a function's parameter during a function
+call.
+
+6) Return Variable: 
+retunrs to the calling sctipt when it finishes its given
+task
+
+7) Return Value: 
+At the conclusion of a function call, return values enable a function to return
+ give back a value.
+
+8) Modular Development: 
+It entails breaking down a program's functionality into independent units or "building blocks" that
+individually include all the components required to carry out a specific functionality.
+
+9) Incremental Development: 
+Development based on the principle of building some before building all.
+
+10) Function Stub: its the correct function name and number of the parameter that
+provides a dummy result
