@@ -1,0 +1,21 @@
+Function HeightFtInToCm(integer heightFt, integer heightIn) returns float heightCm
+   float cmPerInch
+   integer inchesPerFeet
+   integer totalInches
+   
+   cmPerInch = 2.54
+   inchesPerFeet = 12
+   
+   // Total Inches
+   totalInches = (heightFt * inchesPerFeet) + heightIn
+   
+   // Convert inches to cm
+   heightCm = totalInches * cmPerInch
+   
+Function Main() returns nothing
+   integer userFt
+   integer userIn
+   userFt = Get next input
+   userIn = Get next input
+   Put "Centimeters: " to output
+   Put HeightFtInToCm(userFt, userIn) to output
